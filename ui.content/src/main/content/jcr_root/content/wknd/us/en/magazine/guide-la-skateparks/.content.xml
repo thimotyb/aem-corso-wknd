@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-05-25T14:17:12.745Z"
+        cq:lastModified="{Date}2021-05-26T10:39:51.658Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page"
         jcr:primaryType="cq:PageContent"
@@ -34,6 +34,7 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/container">
                     <title
+                        cq:styleIds="[1622022230975]"
                         jcr:created="{Date}2021-05-25T13:16:22.566Z"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2021-05-25T13:16:22.566Z"
@@ -59,6 +60,7 @@
                         text="&lt;p>Contrary to popular belief skateboarding, the sport as we know it was not invented by Marty McFly as depicted in the box office hit Back to the Future. It is widely considered that the sport was invented in California by surfers who wanted something to do when the ocean waves went &amp;quot;flat&amp;quot; or in non-surfer terms when there were no waves in the early 1950s. This was termed &amp;quot;sidewalk surfing&amp;quot; as a never ending wave that surfers could drop in on, unless it was raining. Los Angeles is long considered the epicenter of this alternative sport. The sport grew slowly, mostly on the west coast, finally becoming mainstream into the 1980s. In the summer of 2020 skateboarding will make its debut in the Olympics. In honor of this historic achievement we tracked down the top skate spots in greater Los Angeles.&lt;br>&#xa;&lt;br>&#xa;Vans off the Wall Skatepark, Huntington Beach located in Orange County, Vans Huntington Beach is a skate park paradise. With a cool ocean breeze and always sunny weather makes this destination a good time, anytime. The layout includes an enormous street skating area with something for everyone. There are multiple connecting bowls, easily 15 feet deep which contain top of the line concrete and is well maintained. Multiple stairs, rails, and ramps complete this great skatepark. Whether your an amateur, still attempting your first kick flip or an experience pro, polishing off that back-side 900 Vans H.B. will have something for you.&lt;br>&#xa;&lt;br>&#xa;Moorpark Skate Park located in Ventura County, Moorpark is considered the area's premier skatepark. Moorpark skate park, &amp;quot;M.P.&amp;quot; for short, offers a wide variety of challenges and terrain for different skill sets. An isolated beginner area features low walls for beginners just getting their feet wet and ensures a safe space for learning progression. M.P. also includes an incredible bowl that was specifically designed to look like a backyard pool. Nearby you can also visit the Skateboarding Hall of Fame Museum, featuring a great collection of historic skateboarding memorabilia. &lt;br>&#xa;&lt;br>&#xa;500 Poindexter ave. , Moorpark CA 93021 &lt;br>&#xa;&lt;br>&#xa;Venice Beach Skate Park, we may have saved the best for last. Probably considered the quintessential skate area in all of LA, perhaps the world, is the Venice Beach skatepark. Located just a stones throw away from the Venice beach boardwalk, there is no better place to strut your stuff then Venice Beach. Here you'll see not only incredible skating, but also incredible styles, skaters in gorilla suits, suits and ties, tutus. Ocean breezes and a view of the water attracts skaters and tourists a like at this wildly popular skatepark. The skateparks is expertly designed with a wide variety of street features and bowls. This place has an incredible vibe, the locals are friendly and welcoming to experts and beginners alike. If you can only choose one skatepark to visit, Venice beach is tough to beat.&lt;br>&#xa;&lt;br>&#xa;1800 Ocean Front Walk Venice, 90291&lt;/p>&#xa;"
                         textIsRich="true"/>
                     <text_1612521441
+                        cq:styleIds="[1622023005386]"
                         jcr:created="{Date}2021-05-25T14:13:04.432Z"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2021-05-25T14:14:18.320Z"
@@ -67,6 +69,16 @@
                         sling:resourceType="wknd/components/text"
                         text="&lt;blockquote>&amp;quot;There is not better place to shred than Los Angeles&amp;quot;&lt;/blockquote>&#xd;&#xa;"
                         textIsRich="true"/>
+                    <byline
+                        jcr:created="{Date}2021-05-26T10:35:21.060Z"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-05-26T10:39:51.652Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd/components/byline"
+                        fileReference="/content/dam/wknd/en/magazine/la-skateparks/stacey-roswells.jpg"
+                        name="Stacey Roswells"
+                        occupations="[Blogger,YouTuber,Photographer]"/>
                 </container>
                 <container_596437343
                     jcr:created="{Date}2021-05-25T12:56:08.542Z"
